@@ -5,7 +5,6 @@
 //  Created by glaszig on 14.03.13.
 //  Copyright (c) 2013 glaszig. All rights reserved.
 //
-#if __has_include(<UIKit/UIKit.h>)
 #import "SZTextView.h"
 
 #define HAS_TEXT_CONTAINER [self respondsToSelector:@selector(textContainer)]
@@ -276,4 +275,3 @@ static NSString * const kTextAlignmentKey = @"textAlignment";
 }
 
 @end
-#endif

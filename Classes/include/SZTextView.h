@@ -5,7 +5,6 @@
 //  Created by glaszig on 14.03.13.
 //  Copyright (c) 2013 glaszig. All rights reserved.
 //
-#if __has_include(<UIKit/UIKit.h>)
 #import <UIKit/UIKit.h>
 
 //! Project version number for SZTextView.
@@ -25,4 +24,3 @@ IB_DESIGNABLE
 @property (retain, nonatomic) UIColor *placeholderTextColor UI_APPEARANCE_SELECTOR;
 
 @end
-#endif
